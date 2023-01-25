@@ -9,7 +9,7 @@ namespace VHODNO
     {
         static void Main(string[] args)
         {
-            //Reads current employees from a txt file
+            //Here I made some changes to this comment
             List<Employee> employees = new List<Employee>();
             using (StreamReader sr = new StreamReader("Users.txt"))
             {
